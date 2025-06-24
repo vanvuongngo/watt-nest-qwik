@@ -1,9 +1,10 @@
-# Platformatic Runtime API
+# Platformatic demo with Nest and Qwik
 
-This is a generated [Platformatic Runtime](https://docs.platformatic.dev/docs/runtime/overview) application.
+<img src="assets/demo.png" alt="demo about platformatic with composed Qwik frontend and Nest backend" />
 
 ## Requirements
 
+Platformatic Runtime](https://docs.platformatic.dev/docs/runtime/overview) application.
 Platformatic supports macOS, Linux and Windows ([WSL](https://docs.microsoft.com/windows/wsl/) recommended).
 You'll need to have [Node.js](https://nodejs.org/) >= v22.16.0
 
