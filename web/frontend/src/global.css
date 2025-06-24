@@ -1,0 +1,53 @@
+:root {
+  --clr-accent:  rgb(22, 210, 119);
+  --clr-bg-btn: #222222;
+  --clr-btn: #FFF;
+  --clr-btn-hover: #000;
+  --clr-time:  #FF0000;
+}
+
+html {
+  font-family: system-ui, sans-serif;
+  font-weight: 200;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font-weight: 600;
+  margin-block: 3rem;
+}
+
+h2 {
+  color: var(--clr-accent);
+  margin-bottom: 0.5rem;
+  font-weight: 200;
+}
+
+.wrapper {
+  margin-inline: 4rem;
+  margin-block: 4rem;
+}
+
+.time {
+  color: var(--clr-time);
+  font-size: 2rem;
+  font-weight: 150;
+}
+
+button {
+  color: var(--clr-btn);
+  background-color: var(--clr-bg-btn);
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-style: none;
+  border-radius: 20px;
+  margin-block: 1rem;
+}
+
+button:hover {
+  color: var(--clr-btn-hover);
+  background-color: #888888;
+}

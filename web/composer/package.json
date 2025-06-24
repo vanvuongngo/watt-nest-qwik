@@ -1,0 +1,16 @@
+{
+  "name": "composer",
+  "scripts": {
+    "start": "platformatic start",
+    "test": "borp",
+    "clean": "rm -fr ./dist",
+    "build": "platformatic compile"
+  },
+  "devDependencies": {
+  },
+  "dependencies": {
+  },
+  "engines": {
+    "node": "^22.14.0 || ^20.6.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "$schema": "https://schemas.platformatic.dev/@platformatic/nest/2.70.1.json",
+  "application": {
+    "commands": {
+      "development": "nest start --watch",
+      "production": "node dist/main"
+    }
+  }
+}

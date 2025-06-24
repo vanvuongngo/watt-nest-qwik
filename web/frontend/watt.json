@@ -1,0 +1,10 @@
+{
+  "$schema": "https://schemas.platformatic.dev/@platformatic/vite/2.70.1.json",
+  "application": {
+    "basePath": "/",
+    "commands": {
+      "development": "vite --mode ssr",
+      "production": "qwik build preview && vite preview"
+    }
+  }
+}
