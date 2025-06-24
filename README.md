@@ -16,7 +16,14 @@ You'll need to have [Node.js](https://nodejs.org/) >= v22.16.0
 pnpm i
 ```
 
+2. Setup environment variables:
+
+```bash
+cp .env.sample .env
+```
+
 ## Usage
+
 
 Run the API with:
 
