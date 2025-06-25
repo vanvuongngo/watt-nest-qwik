@@ -4,7 +4,7 @@
 
 ## Requirements
 
-Platformatic Runtime](https://docs.platformatic.dev/docs/runtime/overview) application.
+[Platformatic Runtime](https://docs.platformatic.dev/docs/runtime/overview) application.
 Platformatic supports macOS, Linux and Windows ([WSL](https://docs.microsoft.com/windows/wsl/) recommended).
 You'll need to have [Node.js](https://nodejs.org/) >= v22.16.0
 
@@ -16,7 +16,14 @@ You'll need to have [Node.js](https://nodejs.org/) >= v22.16.0
 pnpm i
 ```
 
+2. Setup environment variables:
+
+```bash
+cp .env.sample .env
+```
+
 ## Usage
+
 
 Run the API with:
 
